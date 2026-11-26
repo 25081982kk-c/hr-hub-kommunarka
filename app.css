@@ -96,3 +96,5 @@
 .myday-training-deadlines li button:hover { background: #eaf0e6; }
 .myday-training-deadlines li small { display: block; margin-top: 2px; }
 .myday-training-deadlines time { font-weight: 600; }
+
+.medical-verification-fields{border:1px solid var(--line);border-radius:8px;padding:12px;min-width:0;margin:6px 0 10px}.medical-verification-fields>legend{font-weight:600;padding:0 5px}
