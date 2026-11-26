@@ -76,3 +76,12 @@
 .funnel-stage-candidate:hover { background: #e6eee2; }
 .funnel-heading-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .lead-funnel .page-heading .funnel-heading-actions .btn { margin-top: 0; }
+
+.candidate-compliance { margin: 16px 0; padding: clamp(12px, 2.2vw, 22px); }
+.candidate-compliance > h3 { font-size: 1.125rem; }
+.candidate-compliance > p { margin: 3px 0 10px; font-size: 0.875rem; }
+.candidate-compliance .compliance-status { margin-top: 8px; }
+.candidate-compliance fieldset { min-width: 0; }
+@media (max-width: 700px) {
+  .candidate-compliance .form-grid { grid-template-columns: minmax(0, 1fr); }
+}
